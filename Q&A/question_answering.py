@@ -8,6 +8,7 @@ def run_question_answering(question, context):
     return result
 
 def main():
+    st.set_page_config(page_title="Ques_Ans")
     st.title("Question Answering with Streamlit")
     
     # User input for question and context
