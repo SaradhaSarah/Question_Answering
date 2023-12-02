@@ -11,8 +11,9 @@ def main():
     st.title("Question Answering with Streamlit")
     
     # User input for question and context
-    question = st.text_input("Enter your question:")
     context = st.text_area("Enter the context:")
+    question = st.text_input("Enter your question:")
+
     
     if st.button("Get Answer"):
         if question and context:
